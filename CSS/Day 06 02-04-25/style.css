@@ -1,0 +1,12 @@
+p{
+    color: red;
+    font-size: xx-large;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.green{
+    color: green;
+}

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid;
+    
+    margin:50px;
+    
+}
+
+.translate{
+    transform: perspective(10px) translateZ(-2px);
+}
+.scaled{
+    transform: perspective(30px) scaleZ(0.2) rotateX(45deg);
+}
